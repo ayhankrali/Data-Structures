@@ -22,4 +22,8 @@ public class DynamicList {
         this.tail = null ;
         this.head = null ;
     }
+
+    public void add(Object item){
+
+    }
 }

@@ -13,7 +13,7 @@ public class ArrayListExample {
         list.add(new Date());
 
         for (int i = 0; i <list.size() ; i++) {
-            Object value = new Object();
+            Object value = list.get(i);
             System.out.printf("Index=%d; Value=%s\n", i, value);
         }
 
